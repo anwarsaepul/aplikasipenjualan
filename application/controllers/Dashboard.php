@@ -9,6 +9,6 @@ class Dashboard extends CI_Controller
     }
 
     function index(){
-        echo "Ini halaman administrator";
+        $this->template->load('template/template','dashboard/dashboard');
     }
 }
